@@ -11,7 +11,7 @@ BUCKET_NAME = "raw-aqi-api-data"
 def lambda_handler(event, context):
     url = "https://api.waqi.info/map/bounds/"
     params = {
-        "token": "7f8f5c70d3f644cf863339a5ae48e56e3f1efec5",
+        "token": "api-key",
         "latlng": "-90,-180,90,180"
     }
 
